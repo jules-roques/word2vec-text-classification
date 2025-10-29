@@ -1,0 +1,9 @@
+torch
+numpy
+datasets
+transformers
+matplotlib
+tqdm
+einops
+tabulate
+jupyterlab
