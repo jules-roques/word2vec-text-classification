@@ -1,7 +1,6 @@
 # Word2Vec Implementation for Text Classification
 
 **Authors:** Louis Carron, Jules Roques  
-**Course:** Large Language Models (Master 2 IASD &ndash; PSL) 
 
 This project implements the Word2Vec (Skip-Gram with Negative Sampling) model from scratch using PyTorch. The primary goal is to learn high-quality word embeddings from a large text corpus (WikiText-2).
 
