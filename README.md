@@ -54,3 +54,6 @@ Run the `classification.ipynb` notebook cells in order. It will :
 - Run the experiment comparing Word2Vec initialization vs. Vanilla (random) initialization.
 - Run the ablation studies on the `R` and `K` hyperparameters.
 - Display the final plots in the notebook itself.
+
+## References
+[1] Chopra, S., Hadsell, R., & LeCun, Y. (2005). Learning a Similarity Metric Discriminatively, with Application to Face Verification. Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Vol. 1, pp. 539–546. https://doi.org/10.1109/CVPR.2005.202
