@@ -4,7 +4,7 @@ This project implements the Word2Vec (Skip-Gram with Negative Sampling) model fr
 
 The quality of the learned embeddings is then evaluated on a downstream text classification task (AG News dataset). We compare the performance of a classification model initialized with our pre-trained Word2Vec embeddings against a model trained from scratch with a random initialization.
 
-## Project Structure
+## Project Notebooks
 
   * [`word2vec.ipynb`](notebooks/word2vec.ipynb): Main script for training the Word2Vec model. It processes the WikiText-2 dataset, implements the Word2Vec model, and includes a `Trainer` class to handle training using a contrastive learning objective with negative sampling. The embedding weights are saved for the following task.
   * [`classification.ipynb`](notebooks/classification.ipynb): Script for the downstream classification task. It loads the pre-trained embeddings from `checkpoints/`, initializes a `ClassAttentionModel`, and trains it on the AG News dataset. It also runs the comparative experiments against a baseline trained from scratch. An ablation study showed the impact of two Word2Vec hyperparameters : `R` the positive context radius and `K` the number of negative samples per positive sample.
